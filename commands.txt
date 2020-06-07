@@ -2,4 +2,7 @@
 2) git branch blog (создал новую ветку).
 3) git checkout blog (перешел в новую ветку, создал все необходимые файлы).
 4) git checkout master, git merge blog (сделал слияние веток , чтобы залить на репозиторий только основную ветку).
-5)
+5) git add . (добавляем все наши файлы).
+6) git commit -m 'some comments' (коммитим все файлы).
+7) git remote add origin https://github.com/Daniil-Podruchny/test-rep.git (показываем путь до репозитория).
+8) git push -u origin master
